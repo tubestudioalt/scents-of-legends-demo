@@ -112,9 +112,7 @@ export default function ContactModal({ open, onClose }: Props) {
             {/* Buttons */}
             <div style={{ display: "flex", flexDirection: "column", gap: "0.875rem" }}>
               <a
-                href="https://wa.me/971502521021"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -144,9 +142,7 @@ export default function ContactModal({ open, onClose }: Props) {
               </a>
 
               <a
-                href="https://instagram.com/scentsoflegends"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
                 style={{
                   display: "flex",
                   alignItems: "center",

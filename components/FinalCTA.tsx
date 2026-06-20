@@ -104,9 +104,7 @@ export default function FinalCTA() {
           </p>
 
           <a
-            href="https://wa.me/971502521021"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
             className="btn-accent"
             style={{ fontSize: "0.78rem", padding: "1rem 2.5rem" }}
           >

@@ -144,9 +144,7 @@ export default function Footer() {
             </h4>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
               <a
-                href="https://instagram.com/scentsoflegends"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
                 style={{
                   display: "inline-flex",
                   alignItems: "center",
@@ -168,9 +166,7 @@ export default function Footer() {
                 Instagram
               </a>
               <a
-                href="https://wa.me/971502521021"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
                 style={{
                   display: "inline-flex",
                   alignItems: "center",

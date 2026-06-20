@@ -178,9 +178,7 @@ function FragranceCard({ frag, index }: { frag: Fragrance; index: number }) {
           }}
         >
           <a
-            href="https://wa.me/971502521021"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
             style={{
               display: "block",
               background: frag.accent,

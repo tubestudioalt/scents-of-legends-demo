@@ -195,9 +195,7 @@ export default function Hero() {
               Explore the Collection
             </a>
             <a
-              href="https://wa.me/971502521021"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
               className="btn-accent"
             >
               Order via WhatsApp
