@@ -27,19 +27,8 @@ export default function Footer() {
           className="grid-cols-1 md:grid-cols-4"
           style={{ display: "grid", gap: "2rem 2.5rem" }}
         >
-          {/* Col 1: Logo + Location */}
+          {/* Col 1: Location */}
           <div>
-            <img
-              src="/images/logo1.png"
-              alt="Scents of Legends"
-              style={{
-                height: "55px",
-                width: "auto",
-                display: "block",
-                marginLeft: "-4px",
-                marginBottom: 0,
-              }}
-            />
             <p
               style={{
                 fontFamily: "'DM Sans', sans-serif",
@@ -221,7 +210,7 @@ export default function Footer() {
               letterSpacing: "0.06em",
             }}
           >
-            &copy; 2025 Scents of Legends. All rights reserved.
+            &copy; 2025 All rights reserved.
           </p>
         </div>
       </div>

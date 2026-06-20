@@ -55,15 +55,6 @@ export default function Navbar() {
                 "background 0.35s ease, border-color 0.35s ease, backdrop-filter 0.35s ease",
             }}
           >
-            {/* Logo image */}
-            <a href="/" style={{ textDecoration: "none", flexShrink: 0 }}>
-              <img
-                src="/images/logo1.png"
-                alt="Scents of Legends"
-                style={{ height: "45px", width: "auto", display: "block" }}
-              />
-            </a>
-
             {/* Desktop nav links */}
             <div
               style={{
