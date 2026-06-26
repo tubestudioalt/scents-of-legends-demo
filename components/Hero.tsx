@@ -44,7 +44,7 @@ const itemVariants = {
 export default function Hero() {
   return (
     <section
-      className="min-h-0 md:min-h-[90vh] items-start md:items-end"
+      className="min-h-0 md:min-h-[90vh] items-start md:items-end pb-8 md:pb-0"
       style={{
         position: "relative",
         display: "flex",
@@ -106,7 +106,7 @@ export default function Hero() {
 
       {/* Main content — text on left, vertically centered */}
       <div
-        className="pt-20 pb-8 md:pt-20 md:pb-16"
+        className="pt-20 md:pt-20 md:pb-16"
         style={{
           position: "relative",
           zIndex: 1,
@@ -130,6 +130,7 @@ export default function Hero() {
         >
           <motion.div
             variants={itemVariants}
+            className="mt-4 md:mt-0"
             style={{
               fontFamily: "'DM Sans', sans-serif",
               fontSize: "0.68rem",
