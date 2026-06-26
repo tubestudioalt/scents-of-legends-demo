@@ -58,7 +58,6 @@ export default function Navbar() {
             {/* Desktop nav links */}
             <div
               style={{
-                display: "flex",
                 gap: "2rem",
                 flex: 1,
                 justifyContent: "center",
@@ -116,16 +115,18 @@ export default function Navbar() {
               </button>
             </div>
 
-            {/* Our Location CTA */}
-            <a
-              href={MAPS_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-whatsapp hidden md:inline-flex"
-            >
-              <MapPin size={13} />
-              Our Location
-            </a>
+            {/* Our Location CTA — desktop only */}
+            <div className="hidden md:block">
+              <a
+                href={MAPS_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-whatsapp"
+              >
+                <MapPin size={13} />
+                Our Location
+              </a>
+            </div>
 
             {/* Mobile hamburger */}
             <button
