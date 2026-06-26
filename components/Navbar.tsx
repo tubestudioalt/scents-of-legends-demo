@@ -26,13 +26,13 @@ export default function Navbar() {
   return (
     <>
       <nav
+        className="p-2 md:p-4"
         style={{
           position: "fixed",
           top: 0,
           left: 0,
           right: 0,
           zIndex: 1000,
-          padding: "1rem",
           display: "flex",
           justifyContent: "center",
         }}
@@ -40,10 +40,10 @@ export default function Navbar() {
         <div style={{ position: "relative", maxWidth: "960px", width: "100%" }}>
           {/* Pill bar */}
           <div
+            className="px-4 py-2 md:px-6 md:py-3"
             style={{
               display: "flex",
               alignItems: "center",
-              padding: "0.75rem 1.5rem",
               borderRadius: "2px",
               background: scrolled ? "rgba(245,240,232,0.94)" : "transparent",
               backdropFilter: scrolled ? "blur(14px)" : "none",

@@ -44,11 +44,11 @@ const itemVariants = {
 export default function Hero() {
   return (
     <section
+      className="items-start md:items-end"
       style={{
         position: "relative",
         minHeight: "90vh",
         display: "flex",
-        alignItems: "flex-end",
         overflow: "hidden",
         background: "var(--color-bg)",
       }}
@@ -107,13 +107,16 @@ export default function Hero() {
 
       {/* Main content — text on left, vertically centered */}
       <div
+        className="pt-16 md:pt-20"
         style={{
           position: "relative",
           zIndex: 1,
           width: "100%",
           maxWidth: "1280px",
           margin: "0 auto",
-          padding: "5rem 2rem 4rem",
+          paddingRight: "2rem",
+          paddingBottom: "4rem",
+          paddingLeft: "2rem",
         }}
       >
         <motion.div
