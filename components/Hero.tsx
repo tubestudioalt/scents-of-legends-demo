@@ -44,10 +44,9 @@ const itemVariants = {
 export default function Hero() {
   return (
     <section
-      className="items-start md:items-end"
+      className="min-h-0 md:min-h-[90vh] items-start md:items-end"
       style={{
         position: "relative",
-        minHeight: "90vh",
         display: "flex",
         overflow: "hidden",
         background: "var(--color-bg)",
@@ -107,7 +106,7 @@ export default function Hero() {
 
       {/* Main content — text on left, vertically centered */}
       <div
-        className="pt-16 md:pt-20"
+        className="pt-20 pb-8 md:pt-20 md:pb-16"
         style={{
           position: "relative",
           zIndex: 1,
@@ -115,7 +114,6 @@ export default function Hero() {
           maxWidth: "1280px",
           margin: "0 auto",
           paddingRight: "2rem",
-          paddingBottom: "4rem",
           paddingLeft: "2rem",
         }}
       >

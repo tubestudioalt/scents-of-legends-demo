@@ -40,7 +40,7 @@ export default function Navbar() {
         <div style={{ position: "relative", maxWidth: "960px", width: "100%" }}>
           {/* Pill bar */}
           <div
-            className="px-4 py-2 md:px-6 md:py-3"
+            className="px-4 py-0 md:px-6 md:py-3"
             style={{
               display: "flex",
               alignItems: "center",
@@ -137,11 +137,11 @@ export default function Navbar() {
                 border: "none",
                 color: "var(--color-text)",
                 marginLeft: "auto",
-                padding: "0.25rem",
+                padding: "0.5rem",
               }}
               aria-label="Toggle menu"
             >
-              {mobileOpen ? <X size={20} /> : <Menu size={20} />}
+              {mobileOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
           </div>
 
