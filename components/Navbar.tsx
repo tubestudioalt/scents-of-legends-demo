@@ -165,7 +165,7 @@ export default function Navbar() {
                   padding: "1.5rem",
                   display: "flex",
                   flexDirection: "column",
-                  gap: "1.25rem",
+                  gap: "1.5rem",
                   willChange: "transform",
                   backfaceVisibility: "hidden",
                 }}
@@ -212,7 +212,7 @@ export default function Navbar() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-whatsapp"
-                  style={{ width: "fit-content" }}
+                  style={{ width: "100%", justifyContent: "center" }}
                 >
                   <MapPin size={13} />
                   Our Location
